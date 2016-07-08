@@ -1,4 +1,4 @@
-im = imread('./navya/im1.jpg');
+im = imread('./dataset1/im1.jpg');
 im = rgb2gray(im);
 [sizey,sizex] = size(im);
 bits_array = zeros(1,95);
